@@ -1,0 +1,22 @@
+{
+  "folders": [
+    { "path": ".", "name": "monorepo" },
+  ],
+  "extensions": {
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+    ],
+  },
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/.jj": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "repos/": true,
+      "worktrees/": true,
+    },
+  },
+}
